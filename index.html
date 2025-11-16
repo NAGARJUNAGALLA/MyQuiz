@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Login</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+<body>
+
+<!-- LOGIN FORM -->
+<div id="login-form">
+  <h2>Login to Start Quiz</h2>
+  <input type="text" id="username" placeholder="Username">
+  <input type="password" id="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+  <p id="login-error" style="color:red;"></p>
+</div>
+
+<!-- QUIZ AREA -->
+<div id="quiz-area" style="display:none;">
+  <!-- Quiz header, body, nav, footer will be rendered via JS -->
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
